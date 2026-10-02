@@ -1,33 +1,3 @@
-# VoxelForge 3D — AI Text-to-3D Generation Studio
-
-**Technical Evaluation Submission for OneImmersive**  
-**Candidate:** Nawazish Hassan  
-**Evaluator:** Hanzala Shaikh — SDE Lead, OneImmersive  
-**Submission Deadline:** 2 October  
-
----
-
-## 🚀 Live Demo & Repository
-
-- **Live Web Application:** [https://voxelforge-3d.vercel.app](https://voxelforge-3d.vercel.app) *(or your deployed Vercel/Render URL)*
-- **Source Code Repository:** [https://github.com/nawazishhassan/3DModelling](https://github.com/nawazishhassan/3DModelling)
-
----
-
-## 📋 Assignment Requirements Traceability Matrix
-
-| Requirement | Implementation Details | Status |
-|---|---|:---:|
-| **1. Text Prompt Input** | Full natural-language prompt input bar with quick-suggestion preset chips, randomizer dice, and real-time taxonomy extraction. | ✅ **Complete** |
-| **2. AI 3D Generation** | Multi-engine generation architecture: <br>• **Hugging Face Spaces (`@gradio/client`)**: Connects to 3D diffusion spaces (TRELLIS, TripoSR, Shap-E).<br>• **Meshy.ai Text-to-3D API**: Full polling & GLB output loading.<br>• **Tripo3D API**: High-speed generative 3D pipeline.<br>• **Client-Side Smart Procedural Engine**: Deterministic fallback guaranteeing 100% uptime with zero API quota cold-starts. | ✅ **Complete** |
-| **3. WebGL 3D Display** | Built with **Three.js** using `ACESFilmicToneMapping`, `PCFSoftShadowMap`, directional key/fill/rim lighting, and contact shadow floor plane. Loaded via `GLTFLoader`. | ✅ **Complete** |
-| **4. Rotate & Zoom Controls** | Smooth damping **OrbitControls** with drag-to-rotate, pinch/scroll-to-zoom, right-click pan, auto-rotation toggle, and instant camera reset. | ✅ **Complete** |
-| **5. 3D Model Download** | Multi-format export dispatcher supporting: <br>• **`.GLB`** (Binary glTF with embedded PBR materials)<br>• **`.OBJ`** (Wavefront universal geometry for Blender/Maya)<br>• **`.STL`** (Triangulated format for 3D printing and CAD) | ✅ **Complete** |
-| **6. Free Platform Deployment** | Configured with `vercel.json` for zero-configuration 1-click deployment on **Vercel**, **Render**, or **Netlify**. | ✅ **Complete** |
-| **7. Source Code & Live URL** | Clean TypeScript codebase with 0 lint warnings, 0 compile errors, and comprehensive architectural documentation. | ✅ **Complete** |
-
----
-
 ## 🏗️ Architecture & Technical Highlights
 
 ```
