@@ -120,43 +120,4 @@ npm run lint
 npm run build
 ```
 
----
 
-## ☁️ Deployment Instructions
-
-### Deploy to Vercel (Recommended)
-1. Push this repository to your GitHub account.
-2. Visit [vercel.com](https://vercel.com) and click **"Add New Project"**.
-3. Select this repository. Under **Environment Variables**, you can add:
-   - `VITE_HF_TOKEN`: your Hugging Face Access Token
-4. Click **Deploy**. Vercel will automatically detect `vercel.json` and deploy within 45 seconds.
-
----
-
-## ✉️ Submission Email Draft (Ready to Reply)
-
-```text
-To: hanzala@oneimmersive.us
-Subject: Re: Technical Evaluation - AI Text-to-3D Web Application - Nawazish Hassan
-
-Hi Hanzala,
-
-Thank you for the opportunity to complete the technical evaluation for the SDE role at OneImmersive.
-
-I have completed the Text-to-3D web application, named VoxelForge 3D, fulfilling all the requirements outlined in your email:
-
-1. Live Deployment URL: https://voxelforge-3d.vercel.app
-2. GitHub Repository: https://github.com/nawazishhassan/3DModelling
-
-Key Implementation Highlights:
-• Text-to-3D Generation: Multi-engine support including Hugging Face Spaces (Gradio), Meshy.ai API, Tripo3D API, and an instant client-side procedural geometry engine fallback ensuring 100% uptime.
-• 3D Viewport: Built with Three.js featuring OrbitControls (smooth damping, rotate, zoom, pan), ACESFilmic tone mapping, soft shadows, and 4 customizable lighting presets.
-• WebGL Lifecycle & Memory Management: Strict GPU buffer and shadow-map disposal on model/light changes to prevent memory leaks, wrapped in a React ErrorBoundary.
-• Multi-Format Export: Allows instant client-side download of generated models in .GLB, .OBJ, and .STL formats.
-• Model Telemetry & Inspection: Real-time vertex/triangle metrics, wireframe inspection, high-res PNG viewport snapshot, and studio keyboard shortcuts.
-
-Looking forward to your review and feedback!
-
-Best regards,
-Nawazish Hassan
-```
